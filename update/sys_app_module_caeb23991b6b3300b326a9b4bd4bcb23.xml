@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="College review">b8b323111b6b3300b326a9b4bd4bcb00</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_370351_college_r_review">review=others^EQ<item endquery="false" field="review" goto="false" newquery="false" operator="=" or="false" value="others"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Others</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_370351_college_r_review</name>
+        <order>700</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_370351_college_r.admin,x_370351_college_r.non student,x_370351_college_r.student</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 04:51:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caeb23991b6b3300b326a9b4bd4bcb23</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Others</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="College Review" source="x_370351_college_r">89832b151ba73300b326a9b4bd4bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Review">89832b151ba73300b326a9b4bd4bcbe5</sys_scope>
+        <sys_update_name>sys_app_module_caeb23991b6b3300b326a9b4bd4bcb23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 06:00:32</sys_updated_on>
+        <timeline_page/>
+        <title>Others</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

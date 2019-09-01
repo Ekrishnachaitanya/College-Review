@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="College review">b8b323111b6b3300b326a9b4bd4bcb00</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Add Review</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_370351_college_r_review</name>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_370351_college_r.student,x_370351_college_r.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 04:54:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e99ceb991b6b3300b326a9b4bd4bcbf6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="College Review" source="x_370351_college_r">89832b151ba73300b326a9b4bd4bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Review">89832b151ba73300b326a9b4bd4bcbe5</sys_scope>
+        <sys_update_name>sys_app_module_e99ceb991b6b3300b326a9b4bd4bcbf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 07:25:33</sys_updated_on>
+        <timeline_page/>
+        <title>Add Review</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Review" max_length="40" name="x_370351_college_r_review" sizeclass="7" type="collection">
+        <element label="Average Rating" max_length="40" name="avg_rating" read_only="true" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="College" max_length="40" name="college" read_only="true" type="string"/>
+        <element display="true" label="RollNo" max_length="32" name="name" reference="x_370351_college_r_student" type="reference"/>
+        <element label="Rated count" max_length="40" name="ratedcount" read_only="true" type="integer"/>
+        <element label="Rate us" mandatory="true" max_length="40" name="rateus" type="float"/>
+        <element label="Rating" max_length="40" name="rating" type="float"/>
+        <element label="Ratings" max_length="40" name="ratings" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="organisation" label="Review" max_length="40" name="review" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Organisation" sequence="0" value="organisation"/>
+                <element inactive_on_update="false" label="Faculty" sequence="1" value="faculty"/>
+                <element inactive_on_update="false" label="Placements" sequence="2" value="placements"/>
+                <element inactive_on_update="false" label="Sports" sequence="3" value="sports"/>
+                <element inactive_on_update="false" label="Others" sequence="4" value="others"/>
+            </choice>
+        </element>
+        <element label="Roll no" mandatory="true" max_length="32" name="roll_no" reference="x_370351_college_r_student" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="student_name" read_only="true" type="string"/>
+    </element>
+</database>

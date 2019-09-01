@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="review" table="x_370351_college_r_review" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Organisation</label>
+            <language>en</language>
+            <name>x_370351_college_r_review</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6072f551b6b3300b326a9b4bd4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+            <value>organisation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Faculty</label>
+            <language>en</language>
+            <name>x_370351_college_r_review</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86072f551b6b3300b326a9b4bd4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+            <value>faculty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Placements</label>
+            <language>en</language>
+            <name>x_370351_college_r_review</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42072f551b6b3300b326a9b4bd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+            <value>placements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sports</label>
+            <language>en</language>
+            <name>x_370351_college_r_review</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e072f551b6b3300b326a9b4bd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+            <value>sports</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_370351_college_r_review</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6072f551b6b3300b326a9b4bd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+            <value>others</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>review</element>
+            <name>x_370351_college_r_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:28:52</sys_created_on>
+            <sys_id>42072f551b6b3300b326a9b4bd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>review</sys_name>
+            <sys_package display_value="College Review" source="x_370351_college_r">89832b151ba73300b326a9b4bd4bcbe5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Review">89832b151ba73300b326a9b4bd4bcbe5</sys_scope>
+            <sys_update_name>sys_choice_x_370351_college_r_review_review</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:28:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

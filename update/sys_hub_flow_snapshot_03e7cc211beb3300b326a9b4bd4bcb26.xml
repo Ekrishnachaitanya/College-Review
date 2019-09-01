@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>roll_check</internal_name>
+        <label_cache>[{"name":"68630aed-ec85-4f2f-90ca-4350c4f07bc7.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current","label":"Trigger➛Student Record","reference":"x_370351_college_r_student","reference_display":"Student","type":"reference","base_type":"reference"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"2851396f-67b4-4e2a-a016-76cb06e26fa6.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8625f4e3-eb28-4a2a-8e1f-88e0f75a9482.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"8625f4e3-eb28-4a2a-8e1f-88e0f75a9482.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>Roll Check</name>
+        <outputs/>
+        <parent_flow display_value="Roll Check">b713082d1bab3300b326a9b4bd4bcb13</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 06:52:34</sys_created_on>
+        <sys_id>03e7cc211beb3300b326a9b4bd4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roll Check</sys_name>
+        <sys_package display_value="College Review" source="x_370351_college_r">89832b151ba73300b326a9b4bd4bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Review">89832b151ba73300b326a9b4bd4bcbe5</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_03e7cc211beb3300b326a9b4bd4bcb26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 06:52:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=03e7cc211beb3300b326a9b4bd4bcb26"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03e7cc211beb3300b326a9b4bd4bcb26"/>
+</record_update>

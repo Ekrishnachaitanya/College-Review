@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Student" max_length="40" name="x_370351_college_r_student" sizeclass="18" type="collection">
+        <element label="Avg Rating" max_length="40" name="avg_rating" read_only="true" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="BC" max_length="40" name="bc" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" max_length="40" name="branch" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="auto" sequence="0" value="auto"/>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive="true" inactive_on_update="true" label="civil" sequence="1" value="civil"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="EEE" sequence="2" value="eee"/>
+                <element inactive_on_update="false" label="ECE" sequence="3" value="ece"/>
+                <element inactive_on_update="false" label="MECH" sequence="4" value="mech"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Caste" max_length="40" name="caste" type="string">
+            <choice>
+                <element inactive_on_update="false" label="OC" sequence="0" value="oc"/>
+                <element inactive="true" inactive_on_update="true" label="Others" sequence="0" value="others"/>
+                <element inactive_on_update="false" label="BC" sequence="1" value="bc"/>
+                <element inactive_on_update="false" label="OBC" sequence="2" value="obc"/>
+                <element inactive_on_update="false" label="SC" sequence="3" value="sc"/>
+                <element inactive_on_update="false" label="ST" sequence="4" value="st"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="college" mandatory="true" max_length="40" name="college" type="string"/>
+        <element label="Convener" max_length="40" name="convener" type="boolean"/>
+        <element label="Eamcet Rank" max_length="40" name="eamcetrank" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="trans" sequence="2" value="trans"/>
+            </choice>
+        </element>
+        <element label="mobile" max_length="40" name="mobile" type="integer"/>
+        <element label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="OC" max_length="40" name="oc" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Others" max_length="40" name="others" type="string"/>
+        <element label="Rated Members" max_length="40" name="rated_members" read_only="true" type="float"/>
+        <element label="Roll no" mandatory="true" max_length="40" name="rollno" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="SC" max_length="40" name="sc" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ST" max_length="40" name="st" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OBC" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year of joining" mandatory="true" max_length="40" name="yearofjoining" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_370351_college_r.student" name="x_370351_college_r.student">c4803f5d1b6b3300b326a9b4bd4bcbb7</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 05:11:23</sys_created_on>
+        <sys_id>b0c0f75d1b6b3300b326a9b4bd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c4803f5d1b6b3300b326a9b4bd4bcbb7</sys_name>
+        <sys_package display_value="College Review" source="x_370351_college_r">89832b151ba73300b326a9b4bd4bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Review">89832b151ba73300b326a9b4bd4bcbe5</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b0c0f75d1b6b3300b326a9b4bd4bcb9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 05:11:23</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
